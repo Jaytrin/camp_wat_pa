@@ -7,17 +7,9 @@ switch($request){
     case 'get_data':
     require_once('families.php');
     break;
-    // case 'submit_data':
-    // require_once('submit_data.php');
-    // break;
-    // case 'update_data':
-    // require_once('update_data.php');
-    // break;
-    // case 'delete_data':
-    // require_once('delete_data.php');
-    // break;
-    // case 'clean_database':
-    // require_once('clean_database.php');
+    case 'login':
+    require_once('login.php');
+    break;
     default:
     $output['Errors'] = 'Request URL failed';
     break;
