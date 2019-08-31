@@ -1,0 +1,91 @@
+body{
+  height: 100vh;
+}
+
+.bg-money{
+    background-color: limegreen;
+}
+
+.bg-energy{
+    background-color: dodgerblue;
+}
+
+.bg-happiness{
+    background-color: gold;
+}
+
+.logo-container img{
+  height: 200px !important;
+}
+
+.background-image{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+body::after {
+  background: url('./images/gameboard.jpg');
+  background-size: cover;
+  content: "";
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;   
+}
+
+.family-container{
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.orange-background{
+  background-color: rgba(255,165,0,0.9);
+}
+
+.purple-background{
+  background-color: rgba(128,0,128,0.9);
+}
+
+.red-background{
+  background-color: rgba(255,0,0,0.9);
+}
+
+.pink-background{
+  background-color: rgba(255,105,180,0.9);
+}
+
+.blue-background{
+  background-color: rgba(0,0,255,0.9);
+}
+
+.teal-background{
+  background-color: rgba(0,128,128,0.9);
+}
+
+.magenta-background{
+  background-color: rgba(255,0,255,0.9);
+}      
+
+.green-background{
+  background-color: rgba(0,128,0,0.9);
+}
+
+.yellow-background{
+  background-color: rgba(209, 178, 0, 0.9);
+}
+
+.fa-money-bill{
+  color: rgb(89, 255, 89)
+}
+
+.fa-bolt{
+  color: rgb(82, 200, 255)
+}
+
+.fa-smile{
+  color: rgb(255, 253, 111)
+}
